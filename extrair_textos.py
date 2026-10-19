@@ -91,10 +91,18 @@ def export_all():
         for item in menu_dict.values():
             writer.writerow([item["chave"], item["original_en"], item["referencia_es"], item["traducao_ptbr"]])
 
+    path_full_csv = out_dir / "textos_completos_jogo.csv"
+    with open(path_full_csv, "w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.writer(f, delimiter=";")
+        writer.writerow(["chave", "original_en", "referencia_es", "traducao_ptbr"])
+        for item in full_dict.values():
+            writer.writerow([item["chave"], item["original_en"], item["referencia_es"], item["traducao_ptbr"]])
+
     print("\n[OK] Arquivos gerados com sucesso na pasta 'workspace/traducao/':")
     print(f"  1. {path_menu_json} ({len(menu_dict)} textos de menus, opções e interface)")
     print(f"  2. {path_menu_csv} (Mesmo arquivo de menus, abrível no Excel)")
     print(f"  3. {path_full_json} ({len(full_dict)} textos de todo o jogo)")
+    print(f"  4. {path_full_csv} (Todos os textos do jogo, abrível no Excel)")
 
 if __name__ == "__main__":
     export_all()

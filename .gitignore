@@ -6,7 +6,10 @@ venv/
 .env
 
 # Arquivos de trabalho, dumps e mods locais
-workspace/
+workspace/*
+!workspace/traducao/
+workspace/traducao/*
+!workspace/traducao/textos_completos_jogo.json
 *.log
 
 # Caches de modelos TTS / Voz

@@ -44,7 +44,7 @@ def load_user_translations(input_file: Path) -> dict:
 
     return translations
 
-def apply_translation(custom_file: Path = Path("workspace/traducao/textos_menus_opcoes.json")):
+def apply_translation(custom_file: Path = Path("workspace/traducao/textos_completos_jogo.json")):
     print("=" * 65)
     print(" APLICANDO TRADUÇÃO MANUAL NO METRO 2033 REDUX")
     print("=" * 65)
