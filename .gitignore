@@ -1,0 +1,14 @@
+# Ambientes virtuais e caches
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Arquivos de trabalho, dumps e mods locais
+workspace/
+*.log
+
+# Caches de modelos TTS / Voz
+models/
+downloads/

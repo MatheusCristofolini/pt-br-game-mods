@@ -1,0 +1,123 @@
+# Mapeamento de Personagens e Perfis de Voz (Metro 2033 Redux -> PT-BR)
+
+voices:
+  artyom:
+    description: "Artyom - Protagonista e Narrador de todas as introduções e capítulos"
+    model: "edge-tts"
+    voice: "pt-BR-AntonioNeural"
+    rate: "-4%"
+    pitch: "-2Hz"
+    effect: null
+
+  miller:
+    description: "Coronel Miller (Melnick) - Líder da Ordem Espartana"
+    model: "edge-tts"
+    voice: "pt-BR-AntonioNeural"
+    rate: "-2%"
+    pitch: "-4Hz"
+    effect: null
+
+  bourbon:
+    description: "Bourbon - Contrabandista durão do metrô"
+    model: "edge-tts"
+    voice: "pt-BR-AntonioNeural"
+    rate: "+2%"
+    pitch: "-3Hz"
+    effect: null
+
+  khan:
+    description: "Khan - Filósofo e místico do subterrâneo"
+    model: "edge-tts"
+    voice: "pt-BR-AntonioNeural"
+    rate: "-6%"
+    pitch: "-5Hz"
+    effect: "tunnel"
+
+  hunter:
+    description: "Hunter - Ranger implacável"
+    model: "edge-tts"
+    voice: "pt-BR-AntonioNeural"
+    rate: "0%"
+    pitch: "-3Hz"
+    effect: null
+
+  sukhoi:
+    description: "Sukhoi (Tio Sasha) - Padrasto de Artyom"
+    model: "edge-tts"
+    voice: "pt-BR-AntonioNeural"
+    rate: "-3%"
+    pitch: "-2Hz"
+    effect: null
+
+  ulman:
+    description: "Ulman - Spartan com humor sarcástico"
+    model: "edge-tts"
+    voice: "pt-BR-AntonioNeural"
+    rate: "+3%"
+    pitch: "+1Hz"
+    effect: null
+
+  radio_operator:
+    description: "Transmissões militares e rádio da estação"
+    model: "edge-tts"
+    voice: "pt-BR-AntonioNeural"
+    rate: "+1%"
+    pitch: "0Hz"
+    effect: "radio"
+
+  female_npc:
+    description: "Mulheres e avisos de estação"
+    model: "edge-tts"
+    voice: "pt-BR-FranciscaNeural"
+    rate: "0%"
+    pitch: "0Hz"
+    effect: null
+
+  child_npc:
+    description: "Crianças e garotos do metrô"
+    model: "edge-tts"
+    voice: "pt-BR-ThalitaMultilingualNeural"
+    rate: "+3%"
+    pitch: "+5Hz"
+    effect: null
+
+  default_male:
+    description: "Soldados vermelhos, nazistas, bandidos e civis"
+    model: "edge-tts"
+    voice: "pt-BR-AntonioNeural"
+    rate: "0%"
+    pitch: "0Hz"
+    effect: null
+
+# Regras automáticas para identificar o personagem pela chave do áudio
+character_match_rules:
+  - pattern: "narrative"
+    character: "artyom"
+  - pattern: "intro"
+    character: "artyom"
+  - pattern: "melnik"
+    character: "miller"
+  - pattern: "miller"
+    character: "miller"
+  - pattern: "bourbon"
+    character: "bourbon"
+  - pattern: "khan"
+    character: "khan"
+  - pattern: "hunter"
+    character: "hunter"
+  - pattern: "sukhoi"
+    character: "sukhoi"
+  - pattern: "sasha"
+    character: "sukhoi"
+  - pattern: "ulman"
+    character: "ulman"
+  - pattern: "radio"
+    character: "radio_operator"
+  - pattern: "woman"
+    character: "female_npc"
+  - pattern: "girl"
+    character: "female_npc"
+  - pattern: "child"
+    character: "child_npc"
+  - pattern: "boy"
+    character: "child_npc"

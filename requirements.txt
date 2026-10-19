@@ -1,0 +1,15 @@
+# Manipulação de arquivos binários e compressão de jogos
+lz4>=4.3.0
+pyyaml>=6.0.1
+tqdm>=4.66.0
+
+# Áudio e Processamento de Sinal (DSP)
+pydub>=0.25.1
+numpy>=1.26.0
+scipy>=1.12.0
+
+# Síntese de Voz (TTS)
+edge-tts>=6.1.10
+
+# Tradução e processamento de texto
+requests>=2.31.0

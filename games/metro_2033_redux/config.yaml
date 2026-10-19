@@ -1,0 +1,24 @@
+# Configuração do Metro 2033 Redux
+
+game_name: "Metro 2033 Redux"
+engine: "4A Engine"
+default_install_path: "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Metro 2033 Redux"
+
+archive:
+  index_file: "content.vfx"
+  container_prefix: "content"
+  container_ext: ".vfs0"
+
+localization:
+  source_lng: "stable_us.lng"
+  target_lng: "stable_us.lng"
+  encoding: "utf-8"
+
+audio:
+  format: "ogg"
+  container_ext: ".vba"
+  sample_rate: 44100
+  channels: 1
+  codec: "libvorbis"
+  bitrate: "64k"
+  voice_folder_in_vfx: "content/sounds.us"

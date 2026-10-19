@@ -1,0 +1,15 @@
+# Configuração Geral do Framework de Dublagem e Tradução de Jogos (narracao-pt-br)
+
+default_game: "metro_2033_redux"
+target_language: "pt-br"
+
+paths:
+  workspace_dir: "workspace"
+  extracted_dir: "workspace/extracted"
+  translated_dir: "workspace/translated"
+  dubbed_dir: "workspace/dubbed_audio"
+  mod_output_dir: "workspace/mod_output"
+
+tts:
+  default_engine: "edge-tts"
+  default_locale: "pt-BR"
