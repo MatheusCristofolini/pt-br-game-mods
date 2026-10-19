@@ -1,11 +1,8 @@
 """
-Dicionário de traduções completas para Menus, Opções, Controles e Interface do Metro 2033 Redux em PT-BR.
+Dicionário consolidado de traduções PT-BR para Menus, Opções, Modos e Interface do Metro 2033 Redux.
 """
 
 MENU_TRANSLATIONS_PTBR = {
-    # =========================================================================
-    # MENU PRINCIPAL & NAVEGAÇÃO BÁSICA
-    # =========================================================================
     "$game_name": "Metro 2033 Redux",
     "$continue": "Pressione <use> para continuar",
     "$continue_game": "CONTINUAR",
@@ -29,10 +26,6 @@ MENU_TRANSLATIONS_PTBR = {
     "$menu_single_player": "CAMPANHA",
     "$level": "Nível",
     "$menu_choose_map": "Mapa:",
-
-    # =========================================================================
-    # BOTÕES DE AÇÃO E DIÁLOGOS DE INTERFACE
-    # =========================================================================
     "$back": "VOLTAR",
     "$cancel": "CANCELAR",
     "$apply_settings": "APLICAR CONFIGURAÇÕES",
@@ -50,10 +43,6 @@ MENU_TRANSLATIONS_PTBR = {
     "$video_mode_seconds": "SEGUNDOS",
     "video_optimal_settings": "Configurações de vídeo ideais foram aplicadas automaticamente. Use Opções > Vídeo para alterá-las.",
     "video_skip_hint_xbox": "PRESSIONE <xpad_a> PARA PULAR",
-
-    # =========================================================================
-    # MENSAGENS DE SISTEMA E AVISOS DE SALVAMENTO
-    # =========================================================================
     "$game_progress_will_be_lost_message": "Tem certeza de que deseja continuar?<br>O progresso não salvo será perdido.",
     "Copy of $game_progress_will_be_lost_message": "Tem certeza de que deseja continuar?<br>O progresso não salvo será perdido.",
     "$warning_difficulty": "Alterar a dificuldade impedirá que você receba a conquista por concluir o jogo no nível atual. Tem certeza de que deseja alterar a dificuldade?",
@@ -73,19 +62,11 @@ MENU_TRANSLATIONS_PTBR = {
     "$corrupted_dlc_message_ps3": "O conteúdo para download foi excluído ou corrompido. Baixe-o novamente para jogar.",
     "Copy of $corrupted_dlc_message": "O conteúdo para download foi corrompido.",
     "$dlc_warning": "O conteúdo para download precisa da atualização mais recente para ser acessado.",
-
-    # =========================================================================
-    # ABAS DE OPÇÕES
-    # =========================================================================
     "$game_options": "JOGO",
     "$video": "VÍDEO",
     "$audio_options": "ÁUDIO",
     "$controls_options": "CONTROLES",
     "$controls": "CONTROLES",
-
-    # =========================================================================
-    # CONFIGURAÇÕES DE JOGO (GAME OPTIONS)
-    # =========================================================================
     "$game_difficulty": "DIFICULDADE",
     "$game_difficulty_easy": "FÁCIL",
     "$game_difficulty_medium": "NORMAL",
@@ -104,8 +85,6 @@ MENU_TRANSLATIONS_PTBR = {
     "$crosshair": "MIRA NA TELA",
     "$lang_text": "IDIOMA DO TEXTO",
     "$lang_sound": "IDIOMA DA VOZ",
-
-    # Rótulos de idiomas
     "$nl": "PORTUGUÊS (BR)",
     "$us": "INGLÊS",
     "$ru": "RUSSO",
@@ -116,10 +95,6 @@ MENU_TRANSLATIONS_PTBR = {
     "$pl": "POLONÊS",
     "$cz": "TCHECO",
     "$uk": "UCRANIANO",
-
-    # =========================================================================
-    # CONFIGURAÇÕES DE VÍDEO (VIDEO OPTIONS)
-    # =========================================================================
     "$video_quality": "QUALIDADE",
     "$video_quality_low": "- BAIXA",
     "$video_quality_medium": "- MÉDIA",
@@ -140,17 +115,9 @@ MENU_TRANSLATIONS_PTBR = {
     "$video_resolution_640_480": "- 640X480",
     "$video_resolution_800_600": "- 800X600",
     "$video_resolution_320_200": "- 320X200",
-
-    # =========================================================================
-    # CONFIGURAÇÕES DE ÁUDIO (AUDIO OPTIONS)
-    # =========================================================================
     "$sound_effect_volume": "VOLUME GERAL",
     "$sound_music_volume": "VOLUME DA MÚSICA",
     "ps4_speaker_volume": "CONTROLE DE VOLUME (ALTO-FALANTE DO CONTROLE)",
-
-    # =========================================================================
-    # CONFIGURAÇÕES DE CONTROLES (CONTROLS OPTIONS)
-    # =========================================================================
     "$controls_keyboard": "TECLADO",
     "$controls_mouse": "MOUSE",
     "$controls_gamepad": "CONTROLE",
@@ -191,8 +158,6 @@ MENU_TRANSLATIONS_PTBR = {
     "$ctrl_map_xbox": "DIÁRIO",
     "$ctrl_weapons": "ARMAS",
     "$ctrl_game": "PARTIDA",
-
-    # Botões do mouse e controle
     "$mouse0": "BOTÃO ESQUERDO DO MOUSE",
     "$mouse1": "BOTÃO DIREITO DO MOUSE",
     "$mouse2": "BOTÃO DO MEIO DO MOUSE",
@@ -214,10 +179,6 @@ MENU_TRANSLATIONS_PTBR = {
     "joy_zone_slow": "ZONA LENTA",
     "joy_zone_boost": "ZONA DE IMPULSO",
     "joy_zone_peak": "ZONA DE PICO",
-
-    # =========================================================================
-    # CAPÍTULOS DA HISTÓRIA
-    # =========================================================================
     "$chapter_1": "CAPÍTULO 1: 'QUE COMECE A JORNADA'",
     "$chapter_2": "CAPÍTULO 2: 'BOURBON'",
     "$chapter_3": "CAPÍTULO 3: 'KHAN'",
@@ -225,10 +186,6 @@ MENU_TRANSLATIONS_PTBR = {
     "$chapter_5": "CAPÍTULO 5: 'ESPERANÇA'",
     "$chapter_6": "CAPÍTULO 6: 'D6'",
     "$chapter_7": "CAPÍTULO 7: 'A TORRE'",
-
-    # =========================================================================
-    # PROMPTS DE AÇÃO E INTERAÇÃO NO JOGO (HUD / TUTORIAIS)
-    # =========================================================================
     "$use_objects_1": "<use> - Pegar <use_item>",
     "$use_objects_alt": "<use> - Pegar <use_item>",
     "$use_objects_alt_xbox_temp": "<use> - Pegar <use_item>",
@@ -242,10 +199,6 @@ MENU_TRANSLATIONS_PTBR = {
     "$regina_move_xbox": "Use <xpad_left_thumb> para dirigir.",
     "lantern_on": "LANTERNA LIGADA",
     "nightvision_on": "VISÃO NOTURNA LIGADA",
-
-    # =========================================================================
-    # MENUS DE COMÉRCIO, ARMAS E CUSTOMIZAÇÃO NAS ESTAÇÕES
-    # =========================================================================
     "menu_buy": "COMPRAR",
     "menu_buy_header": "COMPRAS",
     "menu_buy_hint": "<MENU_OK> COMPRAR",
@@ -302,12 +255,81 @@ MENU_TRANSLATIONS_PTBR = {
     "menu_ex_sw": "SECUNDÁRIAS",
     "menu_ex_survival": "PRIMEIROS SOCORROS",
     "menu_sw_header": "ARMAS SECUNDÁRIAS",
-
-    # =========================================================================
-    # DIÁLOGOS DE INTERAÇÃO RÁPIDA (NPCs / ESMOLAS / AÇÕES)
-    # =========================================================================
     "$dialog_hint_ready_xbox": "<use> Pronto.",
     "$dialog_hint_not_ready_ps3": "<#crouch_toggle> Não estou pronto.",
     "$dialog_hint_no_give_money": "<wpn_aim> Não dar nada.",
     "$dialog_hint_no_give_money_xbox": "<crouch_toggle> Não dar nada.",
+    "choose_playstyle": "“Escolha seu estilo de jogo:”",
+    "sur_mode_name": "Sobrevivência",
+    "sur_mode_dsc": "Com munição e filtros escassos, combate mais letal e furtividade muito mais desafiadora, o estilo 'Sobrevivência' oferece aos jogadores a experiência original de survival horror do Metro 2033, com foco na gestão cuidadosa de recursos e confrontos tensos.",
+    "acton_mode_name": "Espartano",
+    "acton_mode_dsc": "Aproveite a experiência de combate e furtividade mais dinâmica de Metro: Last Light ao selecionar o estilo 'Espartano' – perfeito para jogadores que preferem um ritmo mais rápido e focado em ação. Munição, filtros e outros recursos são mais abundantes.",
+    "standard_mode_dsc": "Recomendado para novos jogadores de Metro.<br><br>Se esta é sua primeira vez jogando, recomendamos selecionar o Modo Padrão.<br><br>Interface (HUD) e dicas no jogo estão ativadas, e a munição é abundante o suficiente para usar táticas de confronto direto.",
+    "standard_mode_dsc_easy": "Recomendado para iniciantes em jogos de tiro.<br><br>O combate não será excessivamente desafiador, e munições e recursos são abundantes.",
+    "standard_mode_dsc_normal": "Recomendado para jogadores regulares de jogos de tiro.<br><br>Você precisará gerenciar com cuidado seus suprimentos de munição e filtros, enfrentando cada situação de combate com cautela.",
+    "standard_mode_dsc_hardcore": "Recomendado para jogadores experientes de jogos de tiro.<br><br>Cada confronto apresenta um teste sério às suas habilidades e táticas.<br><br>Munições e recursos devem ser rigorosamente preservados. O sucesso nunca é garantido…",
+    "ranger_mode_dsc": "Um desafio único para veteranos do Metro.<br><br>Para os verdadeiros profissionais, o Modo Ranger força você a jogar sem interface (HUD) e sem dicas na tela.<br><br>O combate é implacável e os recursos são escassos.<br><br>Abordagem furtiva é altamente recomendada.",
+    "ranger_mode_dsc_normal": "No Ranger Normal, a interface (HUD) é limitada e as dicas na tela são desativadas para imersão total.<br><br>Seus inimigos causam muito mais dano – mas você também! O combate é tenso, tático e brutal.<br><br>Recursos são ainda mais escassos – cada bala conta.",
+    "ranger_mode_dsc_hardcore": "No Ranger Difícil, a interface (HUD), mira e dicas são completamente desativadas para a experiência mais imersiva de Metro, e a dificuldade é extrema em todos os aspectos.<br><br>Este é o desafio definitivo do Metro!",
+    "ranger_mode_unavailable_dsc": "Você não possui o Modo Ranger instalado.<br><br>Acesse a loja Steam para baixar o conteúdo adicional do Modo Ranger.",
+    "$tesselation": "TESSELAÇÃO",
+    "$video_contrast": "CONTRASTE",
+    "$texture_filtering": "FILTRAGEM DE TEXTURAS",
+    "ssaa_off": "DESLIGADO",
+    "ssaa_4x": "4X",
+    "blur_normal": "NORMAL",
+    "$sound": "SOM",
+    "$extras": "EXTRAS",
+    "$equipped": "EQUIPADO",
+    "$stop": "PARAR",
+    "$end": "FIM",
+    "$delete": "EXCLUIR",
+    "$add": "ADICIONAR",
+    "$up": "CIMA",
+    "$period": "PONTO",
+    "$equals": "IGUAL",
+    "$look": "Use o mouse para olhar ao redor.",
+    "Copy of $look": "Use o mouse para olhar ao redor.",
+    "$numpad0": "TECLADO NÚM. 0",
+    "$numpad1": "TECLADO NÚM. 1",
+    "$numpad2": "TECLADO NÚM. 2",
+    "$numpad3": "TECLADO NÚM. 3",
+    "$numpad4": "TECLADO NÚM. 4",
+    "$numpad5": "TECLADO NÚM. 5",
+    "$numpad6": "TECLADO NÚM. 6",
+    "$numpad7": "TECLADO NÚM. 7",
+    "$numpad8": "TECLADO NÚM. 8",
+    "$numpad9": "TECLADO NÚM. 9",
+    "$x_start": "CONTROLE (START)",
+    "$x_b": "CONTROLE (BOTÃO B)",
+    "$x_a": "CONTROLE (BOTÃO A)",
+    "$x_x": "CONTROLE (BOTÃO X)",
+    "$x_rb": "CONTROLE (RB)",
+    "$x_lb": "CONTROLE (LB)",
+    "$x_rt": "CONTROLE (RT)",
+    "$x_lt": "CONTROLE (LT)",
+    "$l02_exhibition": "EXPOSIÇÃO",
+    "$l11_dry": "SECA",
+    "$l14_cursed": "AMALDIÇOADA",
+    "$l15_armory": "ARMARIA",
+    "$l21_1": "Estação Negra",
+    "$l21_task_1": "Estação Negra",
+    "$l16_task_1": "Linha de Frente",
+    "$l28_task_1": "Base dos Comandos",
+    "l04_catacombs": "CATACUMBAS",
+    "l07_tunnels_narration_NAME": "PERSEGUIÇÃO",
+    "l03_camp_2": "INSTALAÇÃO",
+    "$gasmask_fast_hint": "<gasmask> Máscara de Gás",
+    "$exchange_hint": "Você pode usar suas balas de padrão militar nos quiosques de troca para comprar mais munição para suas armas.",
+    "change_filter": "TROCAR FILTRO",
+    "$gp_filter": "TROCAR FILTRO",
+    "$filter_name": "Filtro de máscara de gás",
+    "inv_fastdrop": "SECUNDÁRIA",
+    "hint_ingame_mask_xbox": "Pressione <gasmask> para colocar/tirar a máscara de gás. Pressione <filter> para trocar filtros.",
+    "new_gasmask_hint": "Em muitos lugares, especialmente na superfície, é necessário usar máscara de gás. Se começar a sufocar, pressione <gasmask> para colocar a máscara. Para tirá-la, segure <gasmask>. Para verificar a duração dos filtros, olhe seu relógio segurando <time>.",
+    "single_sign_on_later": "MAIS TARDE",
+    "sso_email": "E-MAIL",
+    "sso_birthdate": "DATA DE NASCIMENTO",
+    "sso_existing": "EXISTENTE",
+    "downloading": "BAIXANDO..."
 }
